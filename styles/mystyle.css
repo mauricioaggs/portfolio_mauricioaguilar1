@@ -1,10 +1,17 @@
+/* Website color scheme:
+#25282B
+#33383A
+#43494B
+#EBF1D5
+#F4FCDB
+*/
 body {
 		font-size: 1em;
 		font-weight: normal;
 		font-family: 'Oswald', Sans-seriff;
-		color: #000000; /* black */
+		color: #EBF1D5; /* peach */
 		text-align: left;
-		background-color: #c0c0c0;
+		background-color: #25282B;
 		line-height: 1.5;
 		max-width: 80%;
 		margin: 0 auto;
@@ -12,16 +19,16 @@ body {
 h1 {
 		font-size: 1.8em;
 		font-weight: bold;
-		color: #0000ff; /* blue */
+		color: #EBF1D5; /* peach */
 		text-align: center;
-		background-color: #e6e6e6;
+		background-color: #25282B;
 		}
 h2 {
 		font-size: 1.4em;
 		font-weight: normal;
-		color: #808080;/* black */
+		color: #EBF1D5;/* Peach */
 		text-align: left;
-		background-color: #e6e6e6;
+		background-color: #25282B;
 		padding-left: 20px;
 		}
 div {
@@ -32,7 +39,7 @@ p {
 		font-size: 1em;
 		font-weight: normal;
 		font-family: 'Oswald', Sans-seriff;
-		color: #000000; /* black */
+		color:#EBF1D5; /* peach */
 		text-align: left;
 
 		}
