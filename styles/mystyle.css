@@ -9,7 +9,7 @@ body {
 		font-size: 1em;
 		font-weight: normal;
 		font-family: 'Oswald', Sans-seriff;
-		color: #EBF1D5; /* peach */
+		color: #EBF1D5; /* Matte */
 		text-align: left;
 		background-color: #25282B;
 		line-height: 1.5;
@@ -19,16 +19,16 @@ body {
 h1 {
 		font-size: 1.8em;
 		font-weight: bold;
-		color: #EBF1D5; /* peach */
+		color: #EBF1D5; /* Matte */
 		text-align: center;
-		background-color: #25282B;
+		background-color: #33383A;
 		}
 h2 {
 		font-size: 1.4em;
 		font-weight: normal;
-		color: #EBF1D5;/* Peach */
+		color: #EBF1D5;/* Matte */
 		text-align: left;
-		background-color: #25282B;
+		background-color: #33383A;
 		padding-left: 20px;
 		}
 div {
@@ -39,7 +39,7 @@ p {
 		font-size: 1em;
 		font-weight: normal;
 		font-family: 'Oswald', Sans-seriff;
-		color:#EBF1D5; /* peach */
+		color:#EBF1D5; /* Matte */
 		text-align: left;
 
 		}
