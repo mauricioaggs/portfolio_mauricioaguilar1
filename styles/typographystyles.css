@@ -28,3 +28,35 @@
   */
   line-height: 275%;
 }
+/*** TEXT ALIGNMENT ASSIGNMENT STYLES ***/
+
+/* Do not change this style */
+.align {
+  max-width: 80%;
+  margin: 1em auto;
+  color: black;
+}
+
+#left_align .align {
+  /* Use the text-align property to left-align the text 
+   http://www.w3schools.com/cssref/pr_text_text-align.asp */
+   text-align: left;
+}
+
+#right_align .align {
+  /* Use the text-align property to right-align the text 
+   http://www.w3schools.com/cssref/pr_text_text-align.asp */
+   text-align: right;
+}
+
+#justify .align {
+  /* Use the text-align property to justify the text 
+   http://www.w3schools.com/cssref/pr_text_text-align.asp */
+   text-align: justify;
+}
+
+#center .align {
+  /* Use the text-align property to justify the text 
+   http://www.w3schools.com/cssref/pr_text_text-align.asp */
+   text-align: center;
+}

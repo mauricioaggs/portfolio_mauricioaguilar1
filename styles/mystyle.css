@@ -11,7 +11,7 @@ body {
 		font-family: 'Oswald', Sans-seriff;
 		color: #EBF1D5; /* light peach */
 		text-align: left;
-		background-color: #25282B;
+		background-color: #33383A;
 		line-height: 1.5;
 		max-width: 80%;
 		margin: 0 auto;
@@ -21,14 +21,14 @@ h1 {
 		font-weight: bold;
 		color: #EBF1D5; /* light peach */
 		text-align: center;
-		background-color: #33383A;
+		background-color: #25282B;
 		}
 h2 {
 		font-size: 1.4em;
 		font-weight: normal;
 		color: #F4FCDB;/* really light peach */
 		text-align: left;
-		background-color: #33383A;
+		background-color:#25282B;
 		padding-left: 20px;
 		}
 div {
