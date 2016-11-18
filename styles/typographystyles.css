@@ -60,3 +60,38 @@
    http://www.w3schools.com/cssref/pr_text_text-align.asp */
    text-align: center;
 }
+/*** HIERARCHY ASSIGNMENT STYLES ***/
+
+/* Do not change this style */
+section {
+  font-family: "Helvetica";
+  font-size: 1em;
+  background-color: white;
+  border: solid 1px black;
+  height: 560px;
+  width: 560px;
+  margin: 0 auto;
+}
+
+/* Do not change this style */
+section p {
+  font-size: 1.1em;
+  margin: 2em 4em;
+  max-width: 55%;
+  color: black;
+}
+
+/* Change this style */
+#biggerText {
+  font-size: 1.6em;
+  
+}
+
+/* Change this style */
+.indent {
+  
+}
+
+#date {
+	
+}
