@@ -88,10 +88,16 @@ section p {
 }
 
 /* Change this style */
-.indent {
-  
+.indent { text-align: center;
+font-size: 1.0em;
 }
+.starter { text-align: left;
+font-size: 1.25em;
+  }
 
-#date {
-	
+#stronger { font-size: 1.6em;
 }
+#laster { text-align: center;
+} </section>
+</body>
+</html>
