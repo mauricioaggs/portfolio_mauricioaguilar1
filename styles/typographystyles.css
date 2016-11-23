@@ -143,8 +143,8 @@ font-size: 1.25em;
       * Font size, font weight, logical grouping, orientation
   */
 
-#grandCanyon {
-  background-image: url('../images/grand_canyon.JPG');
+.grandCanyon {
+  background-image: url(../images/grand_canyon.jpg);
   background-size: cover;
   background-position: center center;
   height: 500px;
