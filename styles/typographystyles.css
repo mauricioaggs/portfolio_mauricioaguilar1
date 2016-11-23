@@ -1,5 +1,5 @@
-/* Place this at the very top of your typographystyles.css document 
-*/
+* Place this at the very top of your typographystyles.css document */
+
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
 
 /*** KERNING & LEADING ASSIGNMENT STYLES ***/
@@ -75,7 +75,6 @@ section {
   height: 560px;
   width: 560px;
   margin: 0 auto;
-  color: black;
 }
 
 /* Do not change this style */
