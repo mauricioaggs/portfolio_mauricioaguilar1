@@ -135,27 +135,27 @@ section p {
 
 #weight1 {
   /* Change the font-weight property to give it a thin-weight */
-  100;
+  font-weight: 100;
 }
 
 #weight2 {
   /* Change the font-weight property to give it a light-weight */
-  250;
+  font-weight: 300;
 }
 
 #weight3 {
   /* Change the font-weight property to give it a regular-weight */
-  400;
+  font-weight:400;
 }
 
 #weight4 {
   /* Change the font-weight property to give it a bold-weight */
-  700
+  font-weight:700;
 }
 
 #weight5 {
   /* Change the font-weight property to give it a ultra-bold-weight */
-  900
+  font-weight:900;
 }
 /* 
   POSTER TYPOGRAPHY ASSIGNMENT CRITERIA:
@@ -179,34 +179,40 @@ section p {
   font-style: Clarendon;
   font-size: 2.5em;
   font-weight:900;
-  color: white;
-  text-shadow: black;
+  text-shadow: 2px 2px black;
 }
 #length {
   font-style: Clarendon;
   font-size: 1.75em;
   font-weight:800;
-  color: white;
-  text-shadow: silver;
+  text-shadow: 2px 2px black;
+  margin-top: 15%;
 }
 #width {
   font-style: Helvetica;
   font-size: 1.25em;
   font-weight:700;
-  color: white;
-  text-shadow: silver;
+  text-shadow: 2px 2px black;
 }
 #depth {
   font-style: Helvetica;
   font-size: 1.25em;
   font-weight:700;
-  color: white;
-  text-shadow: silver;
+  text-shadow: 2px 2px black;
 }
-#width {
+#url {
   font-style: Clarendon;
   font-size: 2.0em;
   font-weight:800;
+  text-shadow: 2px 2px black;
+  margin-top: 15%;
+
+}
+
+.gcText {
   color: white;
-  text-shadow: black;
+  margin-left: 10%;
+  padding-top: 5%;
+  width: 50%;
+  line-height: 1;
 }
