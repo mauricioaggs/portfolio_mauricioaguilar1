@@ -7,10 +7,8 @@
 */
 body {
 		font-size: 1em;
-		font-weight: normal;
-		font-family: 'Oswald', Sans-seriff;
+		font-family: 'Helvetica', Sans-seriff;
 		color: #EBF1D5; /* light peach */
-		text-align: left;
 		background-color: #33383A;
 		line-height: 1.5;
 		max-width: 80%;
@@ -25,9 +23,7 @@ h1 {
 		}
 h2 {
 		font-size: 1.4em;
-		font-weight: normal;
 		color: #F4FCDB;/* really light peach */
-		text-align: left;
 		background-color:#25282B;
 		padding-left: 20px;
 		}
@@ -37,8 +33,6 @@ div {
 		}
 p {
 		font-size: 1em;
-		font-weight: normal;
-		font-family: 'Oswald', Sans-seriff;
 		color:#EBF1D5; /* light peach */
 		text-align: left;
 

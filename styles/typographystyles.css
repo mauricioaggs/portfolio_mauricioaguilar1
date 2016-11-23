@@ -1,4 +1,4 @@
-* Place this at the very top of your typographystyles.css document */
+/* Place this at the very top of your typographystyles.css document */
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
 
@@ -69,6 +69,7 @@
 /* Do not change this style */
 section {
   font-family: "Helvetica";
+  color: black;
   font-size: 1em;
   background-color: white;
   border: solid 1px black;
@@ -88,21 +89,41 @@ section p {
 /* Change this style */
 #biggerText {
   font-size: 1.6em;
+  line-height: 1;
   
 }
 /* Change this style */
-#indent { text-align: center;
-font-size: 1.0em;
+.indent { 
+  margin-left: 30%;
+  font-size: 0.8em;
+
 }
-.typ{ 
- text-align: left;
+
+#title {
+  margin-left: 15%;
+  font-size: 1.6em;
+  color: grey;
+  line-height: 0.8;
+}
+
+#typ{ 
  font-size: 1.25em;
 }
-.stronger { 
- font-size: 1.6em;
- text-align: left;
+
+
+#stronger { 
+ font-size: 1.8em;
+ font-weight: 900;
+ color: black;
 }
-.laster { font-size: 1.25em;
+
+#place {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#laster { 
+  font-size: 1.25em;
 }
 /* Place these styles towards the bottom of your typographystyles.css document */
 
