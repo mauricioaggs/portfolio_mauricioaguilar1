@@ -1,3 +1,7 @@
+* Place this at the very top of your typographystyles.css document */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+
 /*** KERNING & LEADING ASSIGNMENT STYLES ***/
 
 /* Do not change this style */
@@ -86,18 +90,99 @@ section p {
   font-size: 1.6em;
   
 }
-
 /* Change this style */
 .indent { text-align: center;
 font-size: 1.0em;
 }
-.starter { text-align: left;
+#starter { text-align: left;
 font-size: 1.25em;
   }
 
 #stronger { font-size: 1.6em;
 }
 #laster { text-align: center;
-} </section>
-</body>
-</html>
+}
+/* Place these styles towards the bottom of your typographystyles.css document */
+
+.weights {
+  font-family: "Roboto";
+  font-size: 32px;
+}
+
+#weight1 {
+  /* Change the font-weight property to give it a thin-weight */
+  100;
+}
+
+#weight2 {
+  /* Change the font-weight property to give it a light-weight */
+  250;
+}
+
+#weight3 {
+  /* Change the font-weight property to give it a regular-weight */
+  400;
+}
+
+#weight4 {
+  /* Change the font-weight property to give it a bold-weight */
+  700
+}
+
+#weight5 {
+  /* Change the font-weight property to give it a ultra-bold-weight */
+  900
+}
+/* 
+  POSTER TYPOGRAPHY ASSIGNMENT CRITERIA:
+  * Use two different typefaces (a serif and a sans-serif)
+  * Use at least three different font-sizes
+  * Use a color that contrasts with the background image
+      * Recommended to use the text-shadow property to increase contrast
+  * Use a hierarchy that emphasizes the most important words
+      * Font size, font weight, logical grouping, orientation
+  */
+
+.grandCanyon {
+  background-image: url(../images/grand_canyon.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 500px;
+  width: 800px;
+  margin: 0 auto;
+  }
+#park {
+  font-style: Clarendon;
+  font-size: 2.5em;
+  font-weight:900;
+  color: white;
+  text-shadow: black;
+}
+#length {
+  font-style: Clarendon;
+  font-size: 1.75em;
+  font-weight:800;
+  color: white;
+  text-shadow: silver;
+}
+#width {
+  font-style: Helvetica;
+  font-size: 1.25em;
+  font-weight:700;
+  color: white;
+  text-shadow: silver;
+}
+#depth {
+  font-style: Helvetica;
+  font-size: 1.25em;
+  font-weight:700;
+  color: white;
+  text-shadow: silver;
+}
+#width {
+  font-style: Clarendon;
+  font-size: 2.0em;
+  font-weight:800;
+  color: white;
+  text-shadow: black;
+}
