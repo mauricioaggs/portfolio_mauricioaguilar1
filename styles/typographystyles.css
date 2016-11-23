@@ -92,23 +92,18 @@ section p {
   
 }
 /* Change this style */
- #indent { text-align: center;
-  font-size: 1.0em;
+.indent { text-align: center;
+font-size: 1.0em;
+}
+#starter { text-align: left;
+font-size: 1.25em;
   }
- -#starter { text-align: left;
- -font-size: 1.25em;
- -  }
- -
- .typ{ 
- + text-align: left;
- + font-size: 1.25em;
- +}
- +.stronger { 
- + font-size: 1.6em;
- + text-align: left;
-  }
- -.laster { font-size: 1.25em;
-  }
+
+#stronger { font-size: 1.6em;
+}
+#laster { text-align: center;
+}
+/* Place these styles towards the bottom of your typographystyles.css document */
 
 .weights {
   font-family: "Roboto";

@@ -86,89 +86,105 @@
 						</p>
 					</div>
 		<h2>Information Hierachy Assignment</h2>
+
+			<h3>Hierarchy: Ordered Information</h3>
+				<section>
+<!-- Make each line below appear on its own separate line in the browser. -->
+					  <p>
+						The Typography of Paul Rand <br> 
+						with Lewis Blackwell <br> 
+						Shattuck Hall - 7:00 pm <br> 
+						March 30, 2011 <br> 
+						Design Lecture Series <br> 
+						Portland State University <br> 
+						Art Department <br> 
+						With wit and wisdom, Blackwell <br> 
+						dissects the patterns of Rand's use of <br> 
+						typography throughout his brands, <br>
+						book covers, and advertising work. 
+					  </p>
+				</section>
+
+			<h3>Hierarchy: Logical Grouping</h3>
+				<section>
+<!-- Make each line below appear on its own separate line in the browser. Then, add spacing to group the information logically -->
+					  <p>
+						The Typography of Paul Rand <br> 
+						with Lewis Blackwell <br> <br>
+						Shattuck Hall - 7:00 pm <br> 
+						March 30, 2011 <br> <br>
+						Design Lecture Series <br> 
+						Portland State University <br> 
+						Art Department <br> <br>
+						With wit and wisdom, Blackwell <br> 
+						dissects the patterns of Rand's use of <br> 
+						typography throughout his brands, <br>
+						book covers, and advertising work. 
+					  </p>
+				</section>
+
+			<h3>Hierarchy: Changing Weights</h3>
+				<section>
+<!-- Make each line below appear on its own separate line in the browser. Then, add spacing to group the information logically. Next, bold the title of the lecture, and reorganize your content according to the article's layout. -->
+					  <p>
+						Design Lecture Series <br> 
+						Portland State University <br> 
+						Art Department <br> <br>					
+						<strong> The Typography of Paul Rand </strong> <br> 
+						with Lewis Blackwell <br> <br>
+						Shattuck Hall - 7:00 pm <br> 
+						March 30, 2011 <br> <br>
+						With wit and wisdom, Blackwell <br> 
+						dissects the patterns of Rand's use of <br> 
+						typography throughout his brands, <br>
+						book covers, and advertising work. 
+				</section>
+
+			<h3>Hierarchy: Changing Type Size</h3>
+				<section>
+<!-- Complete all steps above, then make the size of the lecture title to 1.6em -->
+					  <p>
+						Design Lecture Series <br> 
+						Portland State University <br> 
+						Art Department <br> <br>					
+						<span id='biggerText'><strong>The Typography of Paul Rand </strong></span><br>
+						with Lewis Blackwell <br> <br>
+						Shattuck Hall - 7:00 pm <br> 
+						March 30, 2011 <br> <br>
+						With wit and wisdom, Blackwell <br> 
+						dissects the patterns of Rand's use of <br> 
+						typography throughout his brands, <br>
+						book covers, and advertising work. 
+					  </p>
+				</section>
+
+
 			<h3>Hierarchy: Varying Alignment & Spacing</h3>
-  				<section>
-  <!-- CHALLENGE: Can you organize the text below in the same way as the fifth layout in the Typekit article? Give it a try! Organize each piece of content into its own div, and give classes to the divs you want to behave similarly. Style those divs with CSS. -->
- -				  <div class='indent'>
- +				  <div id='indent'>
-  					Design Lecture Series <br> 
-  					Portland State University <br> 
-  					Art Department <br> <br>
-  				  </div>
- -				  <div id='starter'>
- -					The typography of <br> 
- +				  <div id='indent'>
- +					<span class= 'typ'> The typography of </span>
- +				    <span class= 'stronger'><strong> Paul Rand </strong> </span> <br>
- +				    <span class= 'laster'> with Lewis Blackwell </span> <br>
-  				  </div>
- -				  <div id='starter' id="stronger">
- -				    <strong> Paul Rand </strong> <br>
- -				  </div>
- -				  <div id='starter' id="laster">
- -				    with Lewis Blackwell <br>
- -				  </div>
- -				  <div class='indent' id="date">
- +				  <div id='indent' >
-  					<strong> Shattuck Hall - 7:00 pm <br>
-  					March 30, 2011 </strong> <br> <br> <br>
-  				  </div>
- -				  <div class='indent'>
- +				  <div id='indent'>
-  					With wit and wisdom, Blackwell <br> 
-  					dissects the patterns of Rand's use of <br> 
-  					typography throughout his brands, <br>
-  					book covers, and advertising work. 
-  				  </div>
- +		<h2>Contrast Assignment</h2>
- +			<h3>Font Weights</h3>
- +				  <div class="rectangle">
- +
- +  <!-- In this assignment, take note how I target each individual DIV in my stylesheet. In the HTML, I have given each DIV a unique ID attribute, then I select that unique DIV with a hashtag, followed by the name of the ID.
- +
- +Also, take note of how I select for all the DIVs that have a class of 'weights'. I target those DIVs in the stylesheet with a period, followed by the name of the class. -->
- +
- +				  <div id="weight1" class='weights'>
- +				  	This is font weight 1.
- +				  </div>
- +				  <div id="weight2" class='weights'>
- +				    This is font weight 2.
- +				  </div>
- +				  <div id="weight3" class='weights'>
- +				    This is font weight 3.
- +				  </div>
- +				  <div id="weight4" class='weights'>
- +				  	This is font weight 4.
- +				  </div>
- +				  <div id="weight5" class='weights'>
- +				  	This is font weight 5.
- +				  </div>
- +				  </div>
- +<!-- 
- +  In this assignment, it is highly recommended that you separate your HTML text content into DIVs and/or SPANs, then give them unique ID attributes to style each group individually, or common CLASS attributes to style common groups of elements.
- +  
- +  Remember, to target an element with an ID attribute in your stylesheet, use a hashtag (#) before the ID name. (If <div id="sample"></div>, then the selector is #sample).
- +  
- +  To target an element with a CLASS attribute in your stylesheet, use a period (.) before the ID name. (If <div class="example"></div>, then the selector is .example).
- +-->
- +
- +			<h3>Poster Assignment</h3>
- +				  <div id="grandCanyon">
- +				  <div id="grandCanyon" class= 'park'> 
- +				  	Grand Canyon National Park
- +				  </div>
- +				  <div id="grandCanyon" class= 'length'> 
- +				  	277 miles long
- +				  </div>
- +				  <div id="grandCanyon" class= 'with'> 
- +				  	up to 18 miles wide
- +				  </div>
- +				  <div id="grandCanyon" class= 'depth'> 
- +				  	over a mile deep
- +				  </div>
- +				  <div id="grandCanyon" class= 'url'>
- +				  	plan your visit: nps.gov/grca
- +				  </div>
- +				  </div>
+				<section>
+<!-- CHALLENGE: Can you organize the text below in the same way as the fifth layout in the Typekit article? Give it a try! Organize each piece of content into its own div, and give classes to the divs you want to behave similarly. Style those divs with CSS. -->
+				  <div class='indent'>
+					Design Lecture Series <br> 
+					Portland State University <br> 
+					Art Department <br> <br>
+				  </div>
+				  <div id='starter'>
+					The typography of <br> 
+				  </div>
+				  <div id='starter' id="stronger">
+				    <strong> Paul Rand </strong> <br>
+				  </div>
+				  <div id='starter' id="laster">
+				    with Lewis Blackwell <br>
+				  </div>
+				  <div class='indent' id="date">
+					<strong> Shattuck Hall - 7:00 pm <br>
+					March 30, 2011 </strong> <br> <br> <br>
+				  </div>
+				  <div class='indent'>
+					With wit and wisdom, Blackwell <br> 
+					dissects the patterns of Rand's use of <br> 
+					typography throughout his brands, <br>
+					book covers, and advertising work. 
+				  </div>
 </body>
 </html>
