@@ -91,16 +91,18 @@ section p {
   
 }
 /* Change this style */
-.indent { text-align: center;
+#indent { text-align: center;
 font-size: 1.0em;
 }
-#starter { text-align: left;
-font-size: 1.25em;
-  }
-
-#stronger { font-size: 1.6em;
+.typ{ 
+ text-align: left;
+ font-size: 1.25em;
 }
-#laster { text-align: center;
+.stronger { 
+ font-size: 1.6em;
+ text-align: left;
+}
+.laster { font-size: 1.25em;
 }
 /* Place these styles towards the bottom of your typographystyles.css document */
 
@@ -143,7 +145,7 @@ font-size: 1.25em;
       * Font size, font weight, logical grouping, orientation
   */
 
-.grandCanyon {
+#grandCanyon {
   background-image: url(../images/grand_canyon.jpg);
   background-size: cover;
   background-position: center center;
@@ -151,35 +153,35 @@ font-size: 1.25em;
   width: 800px;
   margin: 0 auto;
   }
-#park {
+.park {
   font-style: Clarendon;
   font-size: 2.5em;
   font-weight:900;
   color: white;
   text-shadow: black;
 }
-#length {
+.length {
   font-style: Clarendon;
   font-size: 1.75em;
   font-weight:800;
   color: white;
   text-shadow: silver;
 }
-#width {
+.width {
   font-style: Helvetica;
   font-size: 1.25em;
   font-weight:700;
   color: white;
   text-shadow: silver;
 }
-#depth {
+.depth {
   font-style: Helvetica;
   font-size: 1.25em;
   font-weight:700;
   color: white;
   text-shadow: silver;
 }
-#width {
+.width {
   font-style: Clarendon;
   font-size: 2.0em;
   font-weight:800;
