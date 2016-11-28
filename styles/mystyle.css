@@ -37,3 +37,13 @@ p {
 		text-align: left;
 
 		}
+a:link{
+		color:#EBF1D5;
+		}
+a:visited {
+		color:#EBF1D5
+		}
+a:hover{
+		color:hotpink;
+		}
+
