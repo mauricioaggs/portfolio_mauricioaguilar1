@@ -1,0 +1,25 @@
+/*google font for gucci*/
+@import url('https://fonts.googleapis.com/css?family=Yrsa');
+/*google font for epstein*/
+@import url('https://fonts.googleapis.com/css?family=Coming+Soon');
+/*boxes*/
+.men {
+  background-color: white;
+  border: solid 1px black;
+  height: 300px;
+  width: 800px;
+  margin: 0 auto;
+  color: grey;
+}
+#gucci {
+	font-size: 2em;
+	line-height: 1.25;
+	text-align: center;
+}
+#general manager {
+	font-size: 2em;
+	line-height: 1;
+	text-align: center;
+}
+/*google font for epstein*/
+@import url('https://fonts.googleapis.com/css?family=Coming+Soon');

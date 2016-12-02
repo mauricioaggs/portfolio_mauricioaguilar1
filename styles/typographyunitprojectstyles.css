@@ -1,0 +1,14 @@
+/*google font for gucci*/
+@import url('https://fonts.googleapis.com/css?family=Yrsa');
+.men {
+  font-size: 1em;
+  background-color: white;
+  border: solid 1px silver;
+  height: 300px;
+  width: 800px;
+  margin: 0 auto;
+  color: black;
+	
+}
+/*google font for epstein*/
+@import url('https://fonts.googleapis.com/css?family=Coming+Soon');
