@@ -7,20 +7,31 @@
   background-color: white;
   border: solid 1px black;
   height: 300px;
-  width: 800px;
-  margin: 0 auto;
+  width: 800px; 
   color: black;
 }
 
 #gucci {
 	font-size: 2em;
-	line-height: 1.25;
+	line-height: .75;
 	text-align: center;
-	background-color:white;
+	background-color: red;
+	font-family: yrsa;
+	width:25%;
+	height: 100%;
+	padding-top: .5cm;
+	padding-bottom:.5cm;
+	color:white;
+
 }
 #generalmanager {
-	font-size: 2em;
-	line-height: 1;
+	font-size:2em;
+	line-height:1;
 	text-align: center;
+	font-family:Coming+Soon;
+	color:#d3d3d3;
+	background-color:gray;
+	padding-top:.15cm;
+	padding-bottom:.15cm;
+	width:50%;
 }
-
