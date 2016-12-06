@@ -13,13 +13,13 @@
 
 #gucci {
 	font-size: 2em;
-	line-height: .75;
+	line-height: .9;
 	text-align: center;
 	background-color: red;
-	font-family: yrsa;
-	width:25%;
+	font-family: Coming+Soon;
+	width:30%;
 	height: 100%;
-	padding-top: .5cm;
+	padding-top: .3cm;
 	padding-bottom:.5cm;
 	color:white;
 
@@ -28,10 +28,10 @@
 	font-size:2em;
 	line-height:1;
 	text-align: center;
-	font-family:Coming+Soon;
+	font-family: yrsa;
 	color:#d3d3d3;
 	background-color:gray;
 	padding-top:.15cm;
-	padding-bottom:.15cm;
-	width:50%;
+	padding-bottom:.1cm;
+	width:40%;
 }
