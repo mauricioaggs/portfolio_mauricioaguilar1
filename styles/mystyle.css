@@ -11,8 +11,8 @@ body {
 		color: #EBF1D5; /* light peach */
 		background-color: #33383A;
 		line-height: 1.5;
-		max-width: 80%;
 		margin: 0 auto;
+		max-width: 80%;
 		}
 h1 {
 		font-size: 1.8em;
@@ -38,10 +38,10 @@ p {
 
 		}
 a:link{
-		color:#EBF1D5;
+		color:red;
 		}
 a:visited {
-		color:#EBF1D5
+		color:red;
 		}
 a:hover{
 		color:hotpink;
