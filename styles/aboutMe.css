@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700|Oswald|Roboto');
+body{
+  background-color: #eee;
+  color: #444;
+  line-height: normal;
+  font-family: "Roboto";
+  font-size: 16px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1{
+  font-family: "Oswald";
+  text-align: center;
+}
+
+h2{
+  font-family: "Merriweather";
+  text-align: center;
+  color: white;
+  padding: 0;
+  font-size: 1.3em;
+  background-color:  #e81c4f;
+}
+
+a{
+  color: #e81c4f;
+  font-size: 1.1em;
+  font-family: "Oswald";
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+#aboutmePhoto{
+  margin: 0 auto;
+  border-radius: 10px;
+  max-width:500px;
+  display: block;
+}
+
+.bioDetails{
+  width: 20%;
+  float: left;
+  margin: 0 auto;
+}
+ul{
+  list-style: none;
+}
+
+li{
+  text-align: center;
+}
+
+div ul li {
+  margin-bottom: 20px;
+}
+
+div ul{
+  padding: 10px;
+}
+
+nav ul li{
+  float: left;
+  width: 12%;
+  margin-bottom: 30px;
+}
